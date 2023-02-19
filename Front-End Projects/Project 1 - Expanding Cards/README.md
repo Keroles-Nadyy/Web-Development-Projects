@@ -24,4 +24,4 @@
 
 
 ## Screenshot of project
-![screenshot](file:///C:/Users/Keroles_N/Downloads/ExpandingCards.png)
+![screenshot](../Support%20files/ExpandingCards.png)
