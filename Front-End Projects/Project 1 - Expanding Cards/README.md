@@ -1,5 +1,7 @@
 # Expanding Cards Project
 
+*Outstanding topics used in this porject*
+
 ## HTML
 - Meta Tags
 - Link Tag
@@ -12,3 +14,14 @@
 - Transition
 - Opacity
 - Overflow
+
+## JS
+- Functions
+- Arrow Functions
+- ForEach
+- DOM "querySelectorAll"
+- EventListener
+
+
+## Screenshot of project
+![screenshot] (C:/Users/Keroles_N/Downloads/ExpandingCards.png)
