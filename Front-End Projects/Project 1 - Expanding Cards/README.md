@@ -24,4 +24,4 @@
 
 
 ## Screenshot of project
-![screenshot](../Support%20files/ExpandingCards.png)
+![screenshot](../Support%20files/ExpandingCards.jpg)
