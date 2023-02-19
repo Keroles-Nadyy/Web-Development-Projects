@@ -25,3 +25,4 @@
 
 ## Screenshot of project
 ![screenshot](../Support%20files/ExpandingCards.jpg)
+![screenshot](C:/Users/Keroles_N/Desktop/ExpandingCards.jpg)
