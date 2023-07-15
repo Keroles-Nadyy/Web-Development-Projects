@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Attach fontawesome to the project -->
+    <!-- Online method using CDNJS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Attach bootstrap to the project -->
+    <!-- Online method using CDNJS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+      integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+
+    <title>Quote Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row text-center my-5">
+        <div class="title mb-3 p-0">
+          <h1 class="main-title position-relative fw-bold display-4 mb-3">
+            Quote of the Day
+          </h1>
+          <!-- <p class="lead">Press the button to generate new one!</p> -->
+        </div>
+
+        <div class="quote-container p-0" id="quoteContainer"></div>
+
+        <button
+          class="btn btn-dark btn-custom rounded-4 fit-content mx-auto px-5 py-3 h6"
+          onclick="generate()"
+        >
+          Generate
+        </button>
+      </div>
+    </div>
+    <!-- Attach bootstrap helpers (Popper & JQuery) to the project -->
+    <!-- Using CDNJS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"
+      integrity="sha512-VK2zcvntEufaimc+efOYi622VN5ZacdnufnmX7zIhCPmjhKnOi9ZDMtg1/ug5l183f19gG1/cBstPO4D8N/Img=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./JS/index.js"></script>
+  </body>
+</html>
